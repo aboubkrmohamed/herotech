@@ -137,12 +137,17 @@ margin-right: 30px;
      height: 100%;
 }
 
-/**************************** buttnos  ***************************************/
-.controls h3 
+.controls a
 {
+    text-decoration: none;
+    color: #fff;
     transition: all .4s;
+
 }
-.controls h3:hover
+
+/**************************** buttnos  ***************************************/
+ 
+.controls a:hover
 {
     color: #DF9030;
 }
