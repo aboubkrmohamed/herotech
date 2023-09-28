@@ -225,26 +225,41 @@ color: #b4b1b1;
 .btns-end
 {
     position: absolute;
-     bottom: 10%;
+     bottom: 5%;
+     /* display: flex; */
 }
 
 .btn1 
 {
-    border: 1px solid #DF9030;
-    color: #fff;
-
+    border: 2px solid #DF9030;
+    color: #fff;   
+     margin: 1%;
     background-color: transparent   ;
     margin-right: 60px;
-    padding: 30px 50px;
+    width: 22rem;
+    height: 5rem;
+    border-radius: 30px ;
 }
 .btn1 a
 {
     color: #fff;
     text-decoration: none;
     font-size: 32px;
-    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+
 }
 
+
+
+ 
+
+.software-buttons button:hover{
+    color: #FFF;
+    border-color: rgba(30, 30, 30, 0.30);
+    background-color: #1E1E1E;
+    transition: 0.5S;
+}
 
 
 @media screen and (min-width:992px) and (max-width:1200px) {
