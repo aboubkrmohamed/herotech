@@ -200,6 +200,9 @@ margin-right: 5%;
 }
 #message:focus{
 border-color: #DF9030;
+    color: #FFFFFF !important;
+
+
 }
 .row input::placeholder{
 color: #b4b1b1;
@@ -336,4 +339,20 @@ color: #b4b1b1;
     }
  
     
+}
+
+
+#message 
+{
+    font-size: 2rem;
+
+    /* background-color: red; */
+    color: #fff;
+}
+
+#message::placeholder
+{
+    /* background-color: #DF9030; */
+    color: #b4b1b1;
+    font-size: 30px;
 }
