@@ -563,10 +563,6 @@ font-size: calc(1.2rem + 1.2vw);
          height: 70vh;     
  }
 
- .master 
- {
-    /* background-color: y\; */
- }
 .get-button 
 {
 
@@ -575,21 +571,13 @@ font-size: calc(1.2rem + 1.2vw);
      /* background-color: red; */
  }
 
- 
-
 .menue 
 {
     padding: 8px 0;
      width: 60px;
     height: 40px;
-
-
-
-
-
 }
 
- 
  .text
  {
     font-size: 18px;
@@ -610,7 +598,6 @@ font-size: calc(1.2rem + 1.2vw);
 
 }
  
-
 .master:hover 
 {
 
@@ -674,10 +661,12 @@ font-size: calc(1.2rem + 1.2vw);
 {
     font-size: 18px;
 }
+
 .Unique-Product p ,.service p
 {
     font-size: 15px;
 }
+
 .Unique-Product h4 ,.experience h4 ,.Warranty h4 ,.Sring-Knowledgeha h4 ,.service h4
 {
     color:#DF9030;
@@ -1082,13 +1071,6 @@ text-align: center;
 }
 
 
-
-
-
-
-
-
- 
 .active-link
 {
   color: #df9030 !important;
@@ -1098,3 +1080,39 @@ text-align: center;
 {
     font-family: "Expo Arabic-Medium", Helvetica !important;
 }
+
+.loading
+{
+  background-color: #000000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999999999999999999;
+  display: block;
+
+ 
+ }
+
+.load-icon 
+{
+    font-size: 10rem;
+    position: fixed;
+    top: 45%;
+    left: 45%;
+    color: #DF9030;
+     -webkit-animation: spin 2s linear infinite; 
+    animation: spin 2s linear infinite;
+}
+
+
+   @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  } 

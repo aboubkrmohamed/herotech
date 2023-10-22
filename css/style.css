@@ -187,9 +187,6 @@ line-height: normal;
 font-family: 'Poppins', sans-serif;
  }
 
-
-
-
 .seconde-layer
 {
     position: absolute;
@@ -202,9 +199,6 @@ font-family: 'Poppins', sans-serif;
 {
     width: 30%;
 }
-
-
-
 
 .seconde-layer2
 {
@@ -375,12 +369,7 @@ padding: 12px;
     height: 6px;
     margin: auto;
 }
-   
  
-
-
- 
-
  .get-button 
  {
     position: absolute;
@@ -571,3 +560,6 @@ padding: 12px;
   }
 
  
+
+
+
