@@ -36,21 +36,7 @@ a:active
 
 /* start navbar  */
 
-.nav-links li>a
-{
-color: #fff;
- 
-font-family: 'Barlow Semi Condensed', sans-serif;
-font-weight: 500;
-font-size: 29px;
-transition: all .3s;
-}
 
-.nav-links li>a:hover
-{
-    color: #DF9030;
-}
- 
  
 .aim-logo img
 {

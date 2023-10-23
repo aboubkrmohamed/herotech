@@ -16,6 +16,10 @@ navLinks.forEach(function (link) {
 });
 
 
+
+
+
+
 var herOneLeft =document.getElementById("herOneLeft");
 var heroOneTemp =document.getElementById("heroOneTemp");
 var superHero =document.getElementById("superHero");
