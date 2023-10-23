@@ -387,16 +387,10 @@ margin-right: 30px;
     font-size: 1.2rem !important; 
 }
  
-
-
-
- 
- 
-
 .hero-one-left
 {
-     top: 48%; 
-    left: -4%;
+     top: 45%; 
+    left: 4%;
     transform: rotate(60deg);
  
 }
@@ -405,10 +399,9 @@ margin-right: 30px;
 .hero-one-temp
 {
  
-    top: 56%; 
-    left: -10%;
-    /* right: 80%; */
-    transform: rotate(55deg);
+    top: 55%; 
+    left: -4%;
+     transform: rotate(60deg);
 }
 
  
@@ -473,28 +466,25 @@ margin-right: 30px;
      font-size: 1rem !important; 
 }
   
-  
-
+ 
+ 
 .hero-one-left
 {
-     top: 52%; 
-    left: -1%;
+     top: 45%; 
+    left: 4%;
     transform: rotate(60deg);
  
 }
-
- 
 
 
 .hero-one-temp
 {
  
-    top: 56%; 
-    left: -10%;
-     transform: rotate(65deg);
+    top: 55%; 
+    left: -4%;
+     transform: rotate(60deg);
 }
 
- 
 
 .hero-one-right
 {
@@ -511,7 +501,6 @@ margin-right: 30px;
  }
 
  
- 
 .hero-plam 
 {
     bottom:18%; 
@@ -519,8 +508,6 @@ margin-right: 30px;
     transform: rotate(50deg);
 }
  
-
-
 .hero-lock-face 
 {
      bottom:33%; 
@@ -538,20 +525,19 @@ margin-right: 30px;
 .all-comonent
 {
     transition: all 1s;
-   
- 
 }
  
 
 .pdf-info
 {
    width: 2%;
-    height: 6px;
+   height: 6px;
 }
 
 .pdf-info img 
 {
-   height: 115px; width: 70px;
+   height: 115px; 
+   width: 70px;
 }
 
     
@@ -566,8 +552,6 @@ margin-right: 30px;
 {
      font-size: 1rem !important; 
 }
-  
-  
 
 .hero-one-left
 {
@@ -577,18 +561,12 @@ margin-right: 30px;
  
 }
 
- 
-
-
 .hero-one-temp
 {
- 
-    top: 56%; 
+    top: 61%; 
     left: -10%;
      transform: rotate(65deg);
 }
-
- 
 
 .hero-one-right
 {
@@ -604,8 +582,6 @@ margin-right: 30px;
     transform: rotate(70deg);
  }
 
- 
- 
 .hero-plam 
 {
     bottom:22%; 
@@ -613,8 +589,6 @@ margin-right: 30px;
     transform: rotate(70deg);
 }
  
-
-
 .hero-lock-face 
 {
      bottom:29%; 
@@ -651,6 +625,8 @@ margin-right: 30px;
 
     
  } 
+
+
    /**************** media from 768px to 500px  *************/
    @media screen and (max-width:400px) and (min-width:300px) {
 
@@ -659,30 +635,24 @@ margin-right: 30px;
 {
      font-size: .8rem !important; 
 }
-  
-  
-
+ 
 .hero-one-left
 {
-     top: 48%; 
-    left: -13%;
+     top: 55%; 
+    left: 0%;
     transform: rotate(70deg);
  
 }
 
- 
-
-
 .hero-one-temp
 {
  
-    top: 58%; 
-    left: -23%;
+    top: 60%; 
+    left: -12%;
      transform: rotate(70deg);
 }
 
- 
-
+  
 .hero-one-right
 {
      bottom:27%; 
@@ -696,8 +666,6 @@ margin-right: 30px;
     right: 6%;
     transform: rotate(70deg);
  }
-
- 
  
 .hero-plam 
 {
@@ -705,8 +673,6 @@ margin-right: 30px;
     right: 24%;
     transform: rotate(70deg);
 }
- 
-
 
 .hero-lock-face 
 {
@@ -721,13 +687,7 @@ margin-right: 30px;
     right: 1%;
     transform: rotate(-55deg);
 }
-
-.all-comonent
-{
  
-   
- 
-}
 
 .pdf-info
 {
@@ -738,9 +698,5 @@ margin-right: 30px;
 .pdf-info img 
 {
    height: 60px; width: 30px;
-}
-
-
- 
-    
+}    
  } 
