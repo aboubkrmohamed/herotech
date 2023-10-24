@@ -1122,11 +1122,3 @@ transition: all .3s !important;
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
   } 
-
-  section
-  {
-    /* display: none; */
-    height: 100vh;
-    /* overflow: hidden; */
-  }
-
