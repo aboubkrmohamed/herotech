@@ -247,7 +247,7 @@ font-weight: 700;
 
 .Unique-Product ,.experience ,.Warranty,.Sring-Knowledgeha,.service
 {
-    text-align: start;
+    text-align: justify;
     width: 80%;
     color: #fff;
     background-image: url('../img/Unique\ products.png');
