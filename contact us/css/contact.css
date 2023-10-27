@@ -227,14 +227,7 @@ color: #b4b1b1;
     background-color: #1E1E1E;
     transition: 0.5s;
 }
-
-.btns-end
-{
-    /* position: absolute;
-     bottom: 5%; */
-     /* display: flex; */
-     /* background-color: red; */
-}
+ 
 
 .btn1 
 {
@@ -258,7 +251,46 @@ color: #b4b1b1;
 }
 
 
+@media screen and (max-width:768px) and (min-width:450px)
+{
+    .btn1 
+{
+margin: 0.6%;
+width: 20rem;
+height: 4rem;
+}   
+.btn1 a 
+{
+    font-size: 25px;
+}
+.btns-end
+{
 
+    display: flex;
+}
+}
+
+
+@media screen and (max-width:450px)
+{
+    .btn1 
+{
+margin: 4% auto;
+width: 16rem;
+height: 3rem;
+display: block;
+}   
+.btn1 a 
+{
+    font-size: 25px;
+}
+.btns-end
+{
+    display: block;
+}
+}
+
+ 
  
 
 .software-buttons button:hover{
@@ -268,18 +300,18 @@ color: #b4b1b1;
     transition: 0.5S;
 }
 
-/* 
+
 @media screen and (min-width:992px) and (max-width:1200px) {
     
     .Contact-text{
         font-size: 1.3rem;
     }
 
-    .container
+    /* .container
     {
         margin: 0 !important;
         padding: 0 !important;
-    }
+    } */
     .Contact-text{
         font-size: 1.2rem;
          color: #ffffff;
@@ -291,7 +323,7 @@ color: #b4b1b1;
  
     }
     
-} */
+}
 
 
 @media screen and (min-width:768px) and (max-width:992px) {
