@@ -485,12 +485,7 @@ font-size: calc(1.2rem + 1.2vw);
   /************* from size from 768px to 506  *********/
   @media screen and (min-width:506px) and (max-width:768px)
 {
-
 /* start navbar  */
-
-
- 
-
  .logo-right
  {
 width: 90px;
@@ -510,17 +505,12 @@ display: none;
 }
 .home-title h3 
 {
- 
- 
 font-size: calc(1.2rem + 1.2vw);
 
 }
-
 /* end section  */
 
-
 /************** start button get  *************/
- 
 .home-one
 {
          height: 70vh;     
@@ -1024,6 +1014,7 @@ right: 20px;
      text-align: center;
     padding: 59px 20px 0;
     background-color: rgb(0, 0, 0   );
+    z-index: 999999999;
     
 }
  .navbar-toggler
