@@ -301,7 +301,24 @@ font-size: calc(1.7rem + 1.7vw);
  
 }
 
+.big-line{
+ 
+    width: 100%;
+    height: 80%;
+    /* padding: 10px ; */
+    overflow: hidden;
+}
+.big-line button {
+    margin: 0 5px;
+    border-radius: 250px;
+    width: 150px;
+    height: 50px
+}
 
+.big-line button>a 
+{
+    font-size: 1.1rem;   
+}
 
 }
 
@@ -367,9 +384,7 @@ font-size: calc(1.2rem + 1.2vw);
     width: 100px;     
  }
 
-
  }
-
 
  /************** section middle offer  *************/
 
@@ -464,20 +479,20 @@ font-size: calc(1.2rem + 1.2vw);
    
 .big-line button {
     margin: 0 5px;
- 
     border-radius: 250px;
-  
-    /* padding: 22px; */
-    width: 160px;
+    width: 140px;
     height: 40px;
- 
-
 }
 
 .big-line button>a 
 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
+
+ 
+ 
+
+ 
 
 }
 
@@ -651,23 +666,18 @@ text-align: center;
  
     
  
-.big-line button {
-    margin: 0 2px;
- 
-    border-radius: 250px;
-  
-    /* padding: 22px; */
-    width: 130px;
-    height: 35px;
  
 
+.big-line button {
+    margin: 0 5px;
+    border-radius: 250px;
+    width: 100px;
+    height: 40px;
 }
 
 .big-line button>a 
 {
- 
-    font-size: 1rem;
-    
+    font-size: .8rem;
 }
 
 
@@ -683,8 +693,6 @@ text-align: center;
   /************* from size from 768px to 506  *********/
   @media screen and (max-width:506px)
 {
- 
- 
 
  .logo-right
  {
@@ -723,26 +731,16 @@ font-size: calc(.8rem + .8vw);
 
 .get-button 
 {
-
      bottom: 4%;
      left: 20%;
  }
-
- 
 
 .menue 
 {
     padding: 8px 0;
      width: 60px;
     height: 40px;
-
-
-
-
-
 }
-
-
  
  .text
  {
@@ -764,11 +762,8 @@ font-size: calc(.8rem + .8vw);
 
 }
  
-
 .master:hover 
-{
-
-  
+{ 
     .presentaion ,.Demo ,.video ,.Mobil
 {
     width: 100px;
@@ -780,20 +775,14 @@ font-size: calc(.8rem + .8vw);
 
 .right-side ,.left-side
 {
-
    margin-left: 0%;
-
-  
  }
 
- 
  .middle 
  {     
        left: 0%;
        margin-bottom: 0%;
      padding-top: 20%;
- /* background-color: red; */
- 
  }
  
  .middle h1
@@ -851,36 +840,28 @@ text-align: center;
   }
  
    
-.big-line button {
-    margin: 0 1px;
- 
+  .big-line button {
+    margin: 0 2px;
     border-radius: 250px;
-  
-    /* padding: 2px; */
-    width: 90px;
-    height: 25px;
- 
-
+    width: 85px;
+    height: 50px;
 }
 
 .big-line button>a 
 {
- 
-    font-size: .7rem;
-    
+    font-size: .6rem;
 }
 
 
 }
 
 
-@media screen  and (max-width:400px) 
+@media screen  and (max-width:420px) 
 {
     
 /************** start button get  *************/
 .get-button 
 {
-
      bottom: 2%;
      left: 3%;
 }
@@ -892,7 +873,6 @@ text-align: center;
     height: 40px;
 }
 
- 
  .text
  {
     font-size: 16px;
@@ -904,19 +884,13 @@ text-align: center;
     height: 50px;
 }
  
-
 .master:hover 
 {
-
-   
-   
     .presentaion ,.Demo ,.video ,.Mobil
 {
     width: 100px;
     height: 40px;
 }
- 
- 
 }
 
 /* offer title  */
@@ -936,8 +910,6 @@ text-align: center;
        left: 0%;
        margin-bottom: 0%;
      padding-top: 55%;
- /* background-color: red; */
- 
  }
  
  .middle h1
@@ -951,7 +923,6 @@ text-align: center;
  }
 
  
-
 .experience p ,.Warranty p  ,.Sring-Knowledgeha p
 {
     font-size: 16px;
@@ -989,12 +960,25 @@ text-align: center;
 
   }
  
+  .big-line button {
+    margin: 0 1px;
+    border-radius: 250px;
+    width: 65px;
+    height: 40px;
+}
+
+.big-line button>a 
+{
+    font-size: .4rem;
+}
+
 }
 
 
 
 /* media navbar  */
 @media screen and (max-width:768px) {
+
 
     .AllLinks
     {
