@@ -1043,7 +1043,7 @@ right: 20px;
 color: #fff !important;
 font-family: 'Barlow Semi Condensed', sans-serif !important;
 font-weight: 500 !important;
-font-size: 31px ;
+font-size: 28px ;
 transition: all .3s !important;
  }
  .AllLinks:hover
@@ -1072,21 +1072,22 @@ transition: all .3s !important;
   bottom: 0;
   z-index: 9999999999999999999;
   display: block;
+ text-align: center;
+ padding-top: 6%;
+ }
+
+
 
  
- }
 
 .load-icon 
 {
-    font-size: 10rem;
-    position: fixed;
-    top: 45%;
-    left: 45%;
+    font-size: 8rem;
     color: #DF9030;
      -webkit-animation: spin 2s linear infinite; 
     animation: spin 2s linear infinite;
-}
-
+    
+ }
 
    @-webkit-keyframes spin {
     0% { -webkit-transform: rotate(0deg); }
